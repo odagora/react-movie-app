@@ -1,0 +1,6 @@
+export { Category } from './Category'
+export { Home } from './Home'
+export { MovieDetail } from './MovieDetail'
+export { NotFound } from './NotFound'
+export { Search } from './Search'
+export { Trends } from './Trends'

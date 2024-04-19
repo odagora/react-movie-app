@@ -7,7 +7,8 @@ export default defineConfig({
 	plugins: [react()],
 	resolve: {
 		alias: {
-			'@': resolve(__dirname, 'src')
+			'@': resolve(__dirname, 'src'),
+			'@package': resolve(__dirname, 'package.json')
 		}
 	}
 })
